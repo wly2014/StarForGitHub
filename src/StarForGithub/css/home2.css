@@ -1,0 +1,239 @@
+@font-face
+{
+    font-family: 'icomoon';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('fonts/icomoon.eot?kqwu1w');
+    src: url('fonts/icomoon.eot?kqwu1w#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kqwu1w') format('truetype'),
+    url('fonts/icomoon.woff?kqwu1w') format('woff'),
+    url('fonts/icomoon.svg?kqwu1w#icomoon') format('svg');
+}
+
+.icon
+{
+    font-family: 'icomoon';
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+
+    text-transform: none;
+
+    speak: none;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before
+{
+    content: '\e602';
+}
+
+/*字体结束*/
+
+/*等待的loading动画*/
+.bounce_hide
+{
+    visibility: hidden;
+}
+
+.background_show
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0,0,0,.6);
+}
+
+.three-bounce
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 80px;
+    height: 100%;
+    margin-top: -20px;
+    margin-left: -40px;
+}
+
+.three-bounce .child
+{
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+
+    animation: three-bounce 1.4s ease-in-out 0s infinite both;
+
+    border-radius: 100%;
+    background-color: #fff;
+}
+.three-bounce .bounce1
+{
+    -webkit-animation-delay: -.32s;
+            animation-delay: -.32s;
+}
+.three-bounce .bounce2
+{
+    -webkit-animation-delay: -.16s;
+            animation-delay: -.16s;
+}
+
+@-webkit-keyframes three-bounce
+{
+    0%,
+    80%,
+    100%
+    {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+    40%
+    {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+}
+
+@keyframes three-bounce
+{
+    0%,
+    80%,
+    100%
+    {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+    40%
+    {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+}
+/*等待的loading动画结束*/
+
+html,body
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.search_group,.tag_repos
+{
+    float: left;
+}
+
+.search_group
+{
+    position: relative;
+    width: 30%;
+    height: 40px;
+    margin-top: 200px;
+    padding-left: 40px;
+    padding-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.search
+{
+    height: 100%;
+    width: 80%;
+    box-sizing:border-box;
+    border: 0;
+    /*background-color: #A6A4A4;*/
+}
+
+.input
+{
+    width: 100%;
+    height: 100%;
+    box-sizing:border-box;
+    border:1px solid #131DBF;
+    /*border-radius: 10px 0 0 10px;*/
+    /*outline-style: none;/*去除聚焦边框*/*/
+    padding: 0;
+
+}
+
+.search_icon
+{
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    /*border-radius: 0 10px 10px 0;*/
+    background-color: #8B25E8;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.search,.search_icon
+{
+    float: left;
+}
+
+.tag_repos
+{
+    width: 500px;
+    height: 100%; 
+    margin-top: 100px;
+    margin-left: 20px;
+    box-shadow: 4px 3px 8px rgba(0,0,0,0.6);
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+    padding-right: 30px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.tag_repos ul
+{
+    list-style-type: none;
+}
+
+.tag_repos li
+{
+    font-size: 20px;
+    border-bottom: 2px solid #752DE9;
+}
+
+/*.hr{
+    width: 80%;
+    height: 2px;
+    background-color: #D61B1B;
+}*/
+
+.pagination
+{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #D82525;
+}
+
+.pre,.next
+{
+    float: left;
+    padding: 7px 12px;
+    margin-left: 100px;
+}
+
+.button
+{
+    background-color: #FFFFFF;
+    border:1px solid rgba(0,0,0,0.3);
+    border-radius: 1px;
+    text-align: center;
+    cursor: pointer;
+}
