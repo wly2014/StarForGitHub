@@ -1,5 +1,6 @@
 # StarForGitHub
 github star标签式管理Chrome插件
+![](README_img/screen.png)
 
 ### 关于
 本软件是管理github已star库的chrome拓展，主要的功能是支持标签式管理，通过标签分类管理star。目前最新版本是1.0。
@@ -7,6 +8,7 @@ github star标签式管理Chrome插件
 ### 安装(未发布)
 1. 下载后，单独提取出`src`中的`StarForGitHub`,然后以“加载已解压的扩展程序”安装。
 2. 下载后，单独提取出`dist`中的`crx`文件，拖拽进Chrome即可安装。
+![](README_img/setup.png)
 
 ### 如何使用
 
@@ -23,6 +25,7 @@ github star标签式管理Chrome插件
 
 4. ##### 添加标签与删除标签
 	点击每个repository右上角的`setting`，即进入设置页面。你可以通过点击标签的删除按钮，对该repository的各个标签执行删除操作。在文本框中输入新增的标签（多个标签的规则同上），点击`OK`，即可添加。
+![gif](README_img/2.gif)
 
 ## 注意
 因为并没有Google的Chrome扩展发布的账号，所以没有在应用市场上发布。在使用的时候需要注意：`无法自动升级，如果删除该扩展，相应的indexDB数据库可能会被删除，`自己设置的tag也就没有了。得失还请大家考量。
