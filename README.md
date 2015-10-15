@@ -2,6 +2,9 @@
 github star标签式管理Chrome插件
 ![](README_img/screen.png)
 
+### 更新
+火狐版扩展，准备中。。。
+
 ### 关于
 本软件是管理github已star库的chrome拓展，主要的功能是支持标签式管理，通过标签分类管理star。目前最新版本是1.0。
 
