@@ -3,17 +3,15 @@ github star标签式管理Chrome插件
 ![](README_img/screen.png)
 
 ### 更新
-火狐版扩展，准备中。。。
+发布至[应用商店](https://chrome.google.com/webstore/detail/starforgithub/ecalblidkddkfccaeglanadjjdpfmidm?utm_source=chrome-ntp-icon)
 
 ### 关于
-本软件是管理github已star库的chrome拓展，主要的功能是支持标签式管理，通过标签分类管理star。目前最新版本是1.0。
+本软件是管理github已star库的chrome拓展，主要的功能是支持标签式管理，通过标签分类管理star。目前最新版本是1.2。
 
-### 安装(未发布)
-1. 下载后，单独提取出`src`中的`StarForGitHub`,然后以“加载已解压的扩展程序”安装。
-2. 下载后，单独提取出`dist`中的`crx`文件，拖拽进Chrome即可安装。
-![](README_img/setup.png)
+### 安装
+[应用商店下载](https://chrome.google.com/webstore/detail/starforgithub/ecalblidkddkfccaeglanadjjdpfmidm?utm_source=chrome-ntp-icon)
 
-### 如何使用
+### 使用
 
 1. ##### 导入已有的stars
 	在自己的账号已登录的情况下，点击“import”，StarForGitHub将会自动导入自己账号已star的库。`不要重复点击“import”`，否则会造成数据重复，今后会修复。
@@ -33,5 +31,4 @@ github star标签式管理Chrome插件
 ## 注意
 因为并没有Google的Chrome扩展发布的账号，所以没有在应用市场上发布。在使用的时候需要注意：`无法自动升级，如果删除该扩展，相应的indexDB数据库可能会被删除，`自己设置的tag也就没有了。得失还请大家考量。
 
-## License
-Created by and copyright wly. Released under the MIT license.
+#### Created by and copyright wly. 
