@@ -28,7 +28,12 @@ github star标签式管理Chrome插件
 	点击每个repository右上角的`setting`，即进入设置页面。你可以通过点击标签的删除按钮，对该repository的各个标签执行删除操作。在文本框中输入新增的标签（多个标签的规则同上），点击`OK`，即可添加。
 ![gif](README_img/2.gif)
 
-~~## 注意~~
-~~因为并没有Google的Chrome扩展发布的账号，所以没有在应用市场上发布。在使用的时候需要注意：`无法自动升级，如果删除该扩展，相应的indexDB数据库可能会被删除，`自己设置的tag也就没有了。得失还请大家考量~~
+### 历史版本
+#### 1.4
+	增加搜索栏，增加关键词搜索
+	
+#### 1.0
+	使用tag的方式管理repository
+
 
 #### Created by and copyright wly. 
