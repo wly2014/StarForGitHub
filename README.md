@@ -2,11 +2,8 @@
 github star标签式管理Chrome插件
 ![](README_img/screen.png)
 
-### 更新
-发布至[应用商店](https://chrome.google.com/webstore/detail/starforgithub/ecalblidkddkfccaeglanadjjdpfmidm?utm_source=chrome-ntp-icon)
-
 ### 关于
-本软件是管理github已star库的chrome拓展，主要的功能是支持标签式管理，通过标签分类管理star。目前最新版本是1.2。
+本软件是管理github已star库的chrome拓展，主要的功能是支持标签式管理，通过标签分类管理star。
 
 ### 安装
 [应用商店下载](https://chrome.google.com/webstore/detail/starforgithub/ecalblidkddkfccaeglanadjjdpfmidm?utm_source=chrome-ntp-icon)
@@ -14,9 +11,9 @@ github star标签式管理Chrome插件
 ### 使用
 
 1. ##### 导入已有的stars
-	在自己的账号已登录的情况下，点击“import”，StarForGitHub将会自动导入自己账号已star的库。`不要重复点击“import”`，否则会造成数据重复，今后会修复。
+	在自己的账号已登录的情况下，点击“import”，StarForGitHub将会自动导入自己账号已star的库。
 
-2. ##### 新star的repository
+2. ##### 新star的repository时
 	当你进入github页面并点击star时，StarForGitHub将会弹窗提醒你添加相应的tag标签。
 	同一repository可以拥有多个标签，并且支持中文。如果一次输入多个tag，请`以空格区分多个不同的标签`。如果点击“取消”，StarForGithub将会为你自动添加“auto”标签。
 
